@@ -1,0 +1,22 @@
+{
+  "name": "npi-scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "appwrite": "^16.1.0",
+    "csv-parser": "^3.1.0",
+    "dotenv": "^16.4.7",
+    "node-appwrite": "^14.1.0",
+    "node-stream-zip": "^1.15.0",
+    "unzipper": "^0.12.3"
+  }
+}
